@@ -1,0 +1,102 @@
+/* Base Styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #fffdfd;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    text-align: center;
+}
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header and Footer */
+header, footer {
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    font-size: 0.9em;
+    color: #333;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+footer {
+    border-top: 1px solid #e0e0e0;
+    margin-top: 40px;
+}
+
+/* Headings */
+.headings {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+/* Paragraph Styling */
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Images and Figures */
+figure {
+    margin: 30px auto;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    color: #555;
+    font-size: 0.85em;
+    margin-top: 8px;
+}
+
+.image1,
+.image2,
+.image3 {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.image1:hover {
+    transform: scale(1.05);
+    transition: transform 0.7s;
+}
+.image2:hover {
+    transform: scale(1.05);
+    transition: transform 0.7s;
+} 
+.image3:hover {
+    transform: scale(1.05);
+    transition: transform 0.7s;
+}
+
+/* Link Button */
+.link a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1da1f2;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.link a:hover {
+    background-color: #0d8ddb;
+}
